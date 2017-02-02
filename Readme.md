@@ -14,6 +14,8 @@ LCOV/GCOV are reporting weird branch coverage (conditional coverage) results whe
 
 You need to install gcov, lcov and genhtml on your system.
 
+Your g++ needs to support "--coverage".
+
 ## Running
 
 1) Clone the repo
