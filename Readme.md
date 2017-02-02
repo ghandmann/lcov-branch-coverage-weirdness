@@ -2,6 +2,8 @@
 
 LCOV/GCOV are reporting weird branch coverage (conditional coverage) results when used with c++.
 
+We suspect these weird branch reports come from internal exception wrappers/handlers. But shouldn't interfere with "high level" coverage reports.
+
 ![LCOV Result](https://raw.githubusercontent.com/ghandmann/lcov-branch-coverage-weirdness/master/screenshot-coverage-report-main.cpp.png)
 
 * Line 6: printf() creating a branch?
