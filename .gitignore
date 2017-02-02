@@ -1,0 +1,5 @@
+*.gcda
+*.gcno
+./generated-coverage/
+coverage.info
+test-coverage
