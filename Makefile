@@ -1,6 +1,6 @@
 all: coverage
 
-build: main.cpp
+build:
 	rm -f *.gcno
 	g++ -O0 --coverage main.cpp -o test-coverage
 
