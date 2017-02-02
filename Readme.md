@@ -18,7 +18,7 @@ Your g++ needs to support "--coverage".
 
 ## Running
 
-1) Clone the repo
-2) Navigate into your cloned repo
-3) make
-4) Inspect the coverage report in "./generated-coverage/index.html"
+1. Clone the repo
+2. Navigate into your cloned repo
+3. make
+4. Inspect the coverage report in "./generated-coverage/index.html"
